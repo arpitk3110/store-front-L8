@@ -3,8 +3,7 @@ name: Build, Test, and Deploy
 on:
   push:
     branches:
-      - main # Trigger on pushes to the main branch
-
+      - main 
 jobs:
   # Step 1: Build Job (Unit Test and Build Docker Image)
   # Build a packaged version of the application that can run in any Docker environment.
